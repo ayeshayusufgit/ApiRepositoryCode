@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.qa.api.gorest.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.api.gorest.listeners.AllureReportListener" />
+		<listener
+			class-name="com.qa.api.gorest.listeners.TesultsListener" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.api.gorest.tests.GetUserTest" />
+			<class name="com.qa.api.gorest.tests.CreateUserTest" />
+			<class name="com.qa.api.gorest.tests.UpdateUserTest" />
+			<class name="com.qa.api.gorest.tests.DeleteUserTest" />
+			<class name="com.qa.api.gorest.tests.GetImgurAPITest" />
+			<class name="com.qa.api.gorest.tests.GetImgurAPITest2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
