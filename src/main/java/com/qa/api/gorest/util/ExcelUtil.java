@@ -11,7 +11,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtil {
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Ayesha\\api_automation\\RestAssuredFW\\src\\main\\java\\com\\qa\\api\\gorest\\testdata\\GorestTestData.xlsx";
+	//public static String TESTDATA_SHEET_PATH = "C:\\Ayesha\\api_automation\\RestAssuredFW\\src\\main\\java\\com\\qa\\api\\gorest\\testdata\\GorestTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = ".\\src\\main\\java\\com\\qa\\api\\gorest\\testdata\\GorestTestData.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
 	
