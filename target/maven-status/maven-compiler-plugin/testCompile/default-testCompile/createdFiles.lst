@@ -1,0 +1,6 @@
+com\qa\api\gorest\tests\CreateUserTest.class
+com\qa\api\gorest\tests\DeleteUserTest.class
+com\qa\api\gorest\tests\GetImgurAPITest.class
+com\qa\api\gorest\tests\GetImgurAPITest2.class
+com\qa\api\gorest\tests\UpdateUserTest.class
+com\qa\api\gorest\tests\GetUserTest.class
