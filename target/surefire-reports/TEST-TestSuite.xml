@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="34.5" tests="14" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.397" tests="14" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ayesh\AppData\Local\Temp\surefire8249369586651763829\surefirebooter8300872009082635365.jar C:\Users\ayesh\AppData\Local\Temp\surefire8249369586651763829 2020-12-28T19-29-45_972-jvmRun1 surefire6904067348264674142tmp surefire_07821562009651123214tmp"/>
+    <property name="sun.java.command" value="C:\Users\ayesh\AppData\Local\Temp\surefire7776471068190989642\surefirebooter4213968304294052958.jar C:\Users\ayesh\AppData\Local\Temp\surefire7776471068190989642 2020-12-31T17-49-36_824-jvmRun1 surefire6921680658126358985tmp surefire_08006252792246433783tmp"/>
     <property name="surefire.test.class.path" value="C:\Ayesha\api_automation\RestAssuredFW\target\test-classes;C:\Ayesha\api_automation\RestAssuredFW\target\classes;C:\Users\ayesh\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ayesh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ayesh\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ayesh\.m2\repository\io\rest-assured\rest-assured\4.3.0\rest-assured-4.3.0.jar;C:\Users\ayesh\.m2\repository\org\codehaus\groovy\groovy\3.0.2\groovy-3.0.2.jar;C:\Users\ayesh\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.2\groovy-xml-3.0.2.jar;C:\Users\ayesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ayesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ayesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ayesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\ayesh\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ayesh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ayesh\.m2\repository\io\rest-assured\json-path\4.3.0\json-path-4.3.0.jar;C:\Users\ayesh\.m2\repository\org\codehaus\groovy\groovy-json\3.0.2\groovy-json-3.0.2.jar;C:\Users\ayesh\.m2\repository\io\rest-assured\rest-assured-common\4.3.0\rest-assured-common-4.3.0.jar;C:\Users\ayesh\.m2\repository\io\rest-assured\xml-path\4.3.0\xml-path-4.3.0.jar;C:\Users\ayesh\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ayesh\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\ayesh\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\ayesh\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\ayesh\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\ayesh\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\ayesh\.m2\repository\io\rest-assured\json-schema-validator\4.3.0\json-schema-validator-4.3.0.jar;C:\Users\ayesh\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\ayesh\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\ayesh\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\ayesh\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\ayesh\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\ayesh\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\ayesh\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\ayesh\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\ayesh\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\ayesh\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\ayesh\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\ayesh\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ayesh\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\ayesh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\ayesh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\ayesh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\ayesh\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\ayesh\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\ayesh\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\ayesh\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\ayesh\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ayesh\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ayesh\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ayesh\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ayesh\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ayesh\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ayesh\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ayesh\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ayesh\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ayesh\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\ayesh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ayesh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ayesh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ayesh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ayesh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\ayesh\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\ayesh\.m2\repository\io\qameta\allure\allure-testng\2.13.7\allure-testng-2.13.7.jar;C:\Users\ayesh\.m2\repository\io\qameta\allure\allure-java-commons\2.13.7\allure-java-commons-2.13.7.jar;C:\Users\ayesh\.m2\repository\io\qameta\allure\allure-model\2.13.7\allure-model-2.13.7.jar;C:\Users\ayesh\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ayesh\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\ayesh\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\ayesh\.m2\repository\com\tesults\testng\tesults-testng\1.0.2\tesults-testng-1.0.2.jar;C:\Users\ayesh\.m2\repository\com\tesults\tesults\1.0.2\tesults-1.0.2.jar;C:\Users\ayesh\.m2\repository\javax\xml\bind\jaxb-api\2.3.0\jaxb-api-2.3.0.jar;C:\Users\ayesh\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\ayesh\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\ayesh\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\ayesh\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\ayesh\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\ayesh\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ayesh\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.228\aws-java-sdk-s3-1.11.228.jar;C:\Users\ayesh\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.228\aws-java-sdk-kms-1.11.228.jar;C:\Users\ayesh\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.228\aws-java-sdk-core-1.11.228.jar;C:\Users\ayesh\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\ayesh\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\ayesh\.m2\repository\com\amazonaws\jmespath-java\1.11.228\jmespath-java-1.11.228.jar;C:\Users\ayesh\.m2\repository\org\json\json\20171018\json-20171018.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ayesh"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ayesh\AppData\Local\Temp\surefire8249369586651763829\surefirebooter8300872009082635365.jar;C:\Users\ayesh\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ayesh\AppData\Local\Temp\surefire7776471068190989642\surefirebooter4213968304294052958.jar;C:\Users\ayesh\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\ayesh\AppData\Local\Android\Sdk\tools;C:\Users\ayesh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Ayesha\selenium_jars\reporting\allure-2.13.7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Ayesha\selenium_jars\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\ayesh\AppData\Local\Microsoft\WindowsApps;C:\Users\ayesh\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_271\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Users\ayesh\AppData\Local\Android\Sdk\tools;C:\Users\ayesh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Ayesha\selenium_jars\reporting\allure-2.13.7\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\ayesh\AppData\Local\Microsoft\WindowsApps;C:\Users\ayesh\AppData\Roaming\npm;C:\Ayesha\eclipse\eclipse-jee-2020-06-R-win32-x86_64 (1)\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.271-b09"/>
@@ -61,13 +61,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="createUserAPIPOSTTest[Abu4, abu4@gmail.com, Male, Active](1)" classname="com.qa.api.gorest.tests.CreateUserTest" time="4.107">
+  <testcase name="createUserAPIPOSTTest[Abu4, abu10@gmail.com, Male, Active](1)" classname="com.qa.api.gorest.tests.CreateUserTest" time="4.07">
     <system-out><![CDATA[Test Suite started!
 I am in onStart method Test
 createUserAPIPOSTTest started!
 I am in onTestStart method createUserAPIPOSTTest start
 I am in onTestStart method createUserAPIPOSTTest start
-{"name":"Abu4","email":"abu4@gmail.com","gender":"Male","status":"Active"}
+{"name":"Abu4","email":"abu10@gmail.com","gender":"Male","status":"Active"}
 Request method:	POST
 Request URI:	https://gorest.co.in/public-api/users
 Proxy:			<none>
@@ -83,7 +83,7 @@ Multiparts:		<none>
 Body:
 {
     "name": "Abu4",
-    "email": "abu4@gmail.com",
+    "email": "abu10@gmail.com",
     "gender": "Male",
     "status": "Active"
 }
@@ -92,26 +92,26 @@ Body:
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1607,
+        "id": 1981,
         "name": "Abu4",
-        "email": "abu4@gmail.com",
+        "email": "abu10@gmail.com",
         "gender": "Male",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:53.688+05:30",
-        "updated_at": "2020-12-28T19:29:53.688+05:30"
+        "created_at": "2020-12-31T17:49:45.434+05:30",
+        "updated_at": "2020-12-31T17:49:45.434+05:30"
     }
 }
 {
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1607,
+        "id": 1981,
         "name": "Abu4",
-        "email": "abu4@gmail.com",
+        "email": "abu10@gmail.com",
         "gender": "Male",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:53.688+05:30",
-        "updated_at": "2020-12-28T19:29:53.688+05:30"
+        "created_at": "2020-12-31T17:49:45.434+05:30",
+        "updated_at": "2020-12-31T17:49:45.434+05:30"
     }
 }
 ====================================
@@ -121,7 +121,7 @@ I am in onTestSuccess method createUserAPIPOSTTest succeed
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Dec 28, 2020 7:29:50 PM org.aspectj.weaver.tools.Jdk14Trace error
+Dec 31, 2020 5:49:41 PM org.aspectj.weaver.tools.Jdk14Trace error
 SEVERE: org/codehaus/groovy/runtime/callsite/AbstractCallSite
 java.lang.RuntimeException: bad non-abstract method with no code: void org.codehaus.groovy.runtime.callsite.AbstractCallSite.<init>(org.codehaus.groovy.runtime.callsite.CallSiteArray, int, java.lang.String) on public class org.codehaus.groovy.runtime.callsite.AbstractCallSite
 	at org.aspectj.weaver.bcel.LazyMethodGen.<init>(LazyMethodGen.java:223)
@@ -194,15 +194,15 @@ java.lang.RuntimeException: bad non-abstract method with no code: void org.codeh
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 
-Dec 28, 2020 7:29:50 PM org.aspectj.weaver.tools.Jdk14Trace info
-INFO: Dumping to C:\Ayesha\api_automation\RestAssuredFW\.\ajcore.20201228.192950.827.txt
+Dec 31, 2020 5:49:41 PM org.aspectj.weaver.tools.Jdk14Trace info
+INFO: Dumping to C:\Ayesha\api_automation\RestAssuredFW\.\ajcore.20201231.174941.612.txt
 ]]></system-err>
   </testcase>
-  <testcase name="createUserAPIPOSTTest[Pallu4, pallu4@gmail.com, Female, Inactive](2)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.096">
+  <testcase name="createUserAPIPOSTTest[Pallu4, pallu10@gmail.com, Female, Inactive](2)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.327">
     <system-out><![CDATA[createUserAPIPOSTTest started!
 I am in onTestStart method createUserAPIPOSTTest start
 I am in onTestStart method createUserAPIPOSTTest start
-{"name":"Pallu4","email":"pallu4@gmail.com","gender":"Female","status":"Inactive"}
+{"name":"Pallu4","email":"pallu10@gmail.com","gender":"Female","status":"Inactive"}
 Request method:	POST
 Request URI:	https://gorest.co.in/public-api/users
 Proxy:			<none>
@@ -218,7 +218,7 @@ Multiparts:		<none>
 Body:
 {
     "name": "Pallu4",
-    "email": "pallu4@gmail.com",
+    "email": "pallu10@gmail.com",
     "gender": "Female",
     "status": "Inactive"
 }
@@ -227,26 +227,26 @@ Body:
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1608,
+        "id": 1982,
         "name": "Pallu4",
-        "email": "pallu4@gmail.com",
+        "email": "pallu10@gmail.com",
         "gender": "Female",
         "status": "Inactive",
-        "created_at": "2020-12-28T19:29:54.367+05:30",
-        "updated_at": "2020-12-28T19:29:54.367+05:30"
+        "created_at": "2020-12-31T17:49:46.084+05:30",
+        "updated_at": "2020-12-31T17:49:46.084+05:30"
     }
 }
 {
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1608,
+        "id": 1982,
         "name": "Pallu4",
-        "email": "pallu4@gmail.com",
+        "email": "pallu10@gmail.com",
         "gender": "Female",
         "status": "Inactive",
-        "created_at": "2020-12-28T19:29:54.367+05:30",
-        "updated_at": "2020-12-28T19:29:54.367+05:30"
+        "created_at": "2020-12-31T17:49:46.084+05:30",
+        "updated_at": "2020-12-31T17:49:46.084+05:30"
     }
 }
 ====================================
@@ -254,11 +254,11 @@ createUserAPIPOSTTest passed!
 I am in onTestSuccess method createUserAPIPOSTTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="createUserAPIPOSTTest[Zarina4, zarina4@gmail.com, Female, Active](3)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.294">
+  <testcase name="createUserAPIPOSTTest[Zarina4, zarina10@gmail.com, Female, Active](3)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.339">
     <system-out><![CDATA[createUserAPIPOSTTest started!
 I am in onTestStart method createUserAPIPOSTTest start
 I am in onTestStart method createUserAPIPOSTTest start
-{"name":"Zarina4","email":"zarina4@gmail.com","gender":"Female","status":"Active"}
+{"name":"Zarina4","email":"zarina10@gmail.com","gender":"Female","status":"Active"}
 Request method:	POST
 Request URI:	https://gorest.co.in/public-api/users
 Proxy:			<none>
@@ -274,7 +274,7 @@ Multiparts:		<none>
 Body:
 {
     "name": "Zarina4",
-    "email": "zarina4@gmail.com",
+    "email": "zarina10@gmail.com",
     "gender": "Female",
     "status": "Active"
 }
@@ -283,26 +283,26 @@ Body:
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1609,
+        "id": 1983,
         "name": "Zarina4",
-        "email": "zarina4@gmail.com",
+        "email": "zarina10@gmail.com",
         "gender": "Female",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:54.735+05:30",
-        "updated_at": "2020-12-28T19:29:54.735+05:30"
+        "created_at": "2020-12-31T17:49:46.417+05:30",
+        "updated_at": "2020-12-31T17:49:46.417+05:30"
     }
 }
 {
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1609,
+        "id": 1983,
         "name": "Zarina4",
-        "email": "zarina4@gmail.com",
+        "email": "zarina10@gmail.com",
         "gender": "Female",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:54.735+05:30",
-        "updated_at": "2020-12-28T19:29:54.735+05:30"
+        "created_at": "2020-12-31T17:49:46.417+05:30",
+        "updated_at": "2020-12-31T17:49:46.417+05:30"
     }
 }
 ====================================
@@ -310,11 +310,11 @@ createUserAPIPOSTTest passed!
 I am in onTestSuccess method createUserAPIPOSTTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="createUserAPIPOSTTest[Tahira4, tahira4@gmail.com, Female, Inactive](4)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.339">
+  <testcase name="createUserAPIPOSTTest[Tahira4, tahira10@gmail.com, Female, Inactive](4)" classname="com.qa.api.gorest.tests.CreateUserTest" time="0.344">
     <system-out><![CDATA[createUserAPIPOSTTest started!
 I am in onTestStart method createUserAPIPOSTTest start
 I am in onTestStart method createUserAPIPOSTTest start
-{"name":"Tahira4","email":"tahira4@gmail.com","gender":"Female","status":"Inactive"}
+{"name":"Tahira4","email":"tahira10@gmail.com","gender":"Female","status":"Inactive"}
 Request method:	POST
 Request URI:	https://gorest.co.in/public-api/users
 Proxy:			<none>
@@ -330,7 +330,7 @@ Multiparts:		<none>
 Body:
 {
     "name": "Tahira4",
-    "email": "tahira4@gmail.com",
+    "email": "tahira10@gmail.com",
     "gender": "Female",
     "status": "Inactive"
 }
@@ -339,26 +339,26 @@ Body:
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1610,
+        "id": 1984,
         "name": "Tahira4",
-        "email": "tahira4@gmail.com",
+        "email": "tahira10@gmail.com",
         "gender": "Female",
         "status": "Inactive",
-        "created_at": "2020-12-28T19:29:55.102+05:30",
-        "updated_at": "2020-12-28T19:29:55.102+05:30"
+        "created_at": "2020-12-31T17:49:46.766+05:30",
+        "updated_at": "2020-12-31T17:49:46.766+05:30"
     }
 }
 {
     "code": 201,
     "meta": null,
     "data": {
-        "id": 1610,
+        "id": 1984,
         "name": "Tahira4",
-        "email": "tahira4@gmail.com",
+        "email": "tahira10@gmail.com",
         "gender": "Female",
         "status": "Inactive",
-        "created_at": "2020-12-28T19:29:55.102+05:30",
-        "updated_at": "2020-12-28T19:29:55.102+05:30"
+        "created_at": "2020-12-31T17:49:46.766+05:30",
+        "updated_at": "2020-12-31T17:49:46.766+05:30"
     }
 }
 ====================================
@@ -366,7 +366,7 @@ createUserAPIPOSTTest passed!
 I am in onTestSuccess method createUserAPIPOSTTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserAPIPOSTTest_withSetter" classname="com.qa.api.gorest.tests.UpdateUserTest" time="1.648">
+  <testcase name="updateUserAPIPOSTTest_withSetter" classname="com.qa.api.gorest.tests.UpdateUserTest" time="1.694">
     <system-out><![CDATA[updateUserAPIPOSTTest_withSetter started!
 I am in onTestStart method updateUserAPIPOSTTest_withSetter start
 I am in onTestStart method updateUserAPIPOSTTest_withSetter start
@@ -390,11 +390,11 @@ Body:
     "gender": "Female",
     "status": "Active"
 }
-1611
+1985
 ====================================
 {"name":"AyeshaUpdated","email":"ayesha.yusuf17@gmail.com","gender":"Female","status":"Active"}
 Request method:	PUT
-Request URI:	https://gorest.co.in/public-api/users/1611
+Request URI:	https://gorest.co.in/public-api/users/1985
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -416,26 +416,26 @@ Body:
     "code": 200,
     "meta": null,
     "data": {
-        "id": 1611,
+        "id": 1985,
         "email": "ayesha.yusuf17@gmail.com",
         "name": "AyeshaUpdated",
         "gender": "Female",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:55.444+05:30",
-        "updated_at": "2020-12-28T19:29:56.711+05:30"
+        "created_at": "2020-12-31T17:49:47.126+05:30",
+        "updated_at": "2020-12-31T17:49:48.430+05:30"
     }
 }
 {
     "code": 200,
     "meta": null,
     "data": {
-        "id": 1611,
+        "id": 1985,
         "email": "ayesha.yusuf17@gmail.com",
         "name": "AyeshaUpdated",
         "gender": "Female",
         "status": "Active",
-        "created_at": "2020-12-28T19:29:55.444+05:30",
-        "updated_at": "2020-12-28T19:29:56.711+05:30"
+        "created_at": "2020-12-31T17:49:47.126+05:30",
+        "updated_at": "2020-12-31T17:49:48.430+05:30"
     }
 }
 ====================================
@@ -443,7 +443,7 @@ updateUserAPIPOSTTest_withSetter passed!
 I am in onTestSuccess method updateUserAPIPOSTTest_withSetter succeed
 ]]></system-out>
   </testcase>
-  <testcase name="deleteUserTest" classname="com.qa.api.gorest.tests.DeleteUserTest" time="0.714">
+  <testcase name="deleteUserTest" classname="com.qa.api.gorest.tests.DeleteUserTest" time="0.751">
     <system-out><![CDATA[deleteUserTest started!
 I am in onTestStart method deleteUserTest start
 I am in onTestStart method deleteUserTest start
@@ -467,10 +467,10 @@ Body:
     "gender": "Female",
     "status": "Active"
 }
-1612
+1986
 ====================================
 Request method:	DELETE
-Request URI:	https://gorest.co.in/public-api/users/1612
+Request URI:	https://gorest.co.in/public-api/users/1986
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -492,7 +492,7 @@ deleteUserTest passed!
 I am in onTestSuccess method deleteUserTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="getAccountBlockStatusTest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="1.429">
+  <testcase name="getAccountBlockStatusTest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="0.945">
     <system-out><![CDATA[getAccountBlockStatusTest started!
 I am in onTestStart method getAccountBlockStatusTest start
 I am in onTestStart method getAccountBlockStatusTest start
@@ -503,7 +503,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 5566cd061527126aba9ed9cefff5409dea520d59
+Headers:		Authorization=Bearer 470ad73a610bfce3be068ce5f0500f9279c89d87
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -523,7 +523,7 @@ getAccountBlockStatusTest passed!
 I am in onTestSuccess method getAccountBlockStatusTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="getAccountImageTest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="3.914">
+  <testcase name="getAccountImageTest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="1.271">
     <system-out><![CDATA[getAccountImageTest started!
 I am in onTestStart method getAccountImageTest start
 I am in onTestStart method getAccountImageTest start
@@ -534,7 +534,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer 27608501400192f8d8fa8b9c2ebc19e1db2ff851
+Headers:		Authorization=Bearer eb3fa7b2a113f3d7f82737eb489d9787b3cf09ca
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -543,6 +543,38 @@ Body:			<none>
 200
 {
     "data": [
+        {
+            "id": "KrTZOQa",
+            "title": "1x1 Pixel",
+            "description": "This is an 1x1 pixel image.",
+            "datetime": 1609164009,
+            "type": "image/jpeg",
+            "animated": false,
+            "width": 1500,
+            "height": 747,
+            "size": 142571,
+            "views": 0,
+            "bandwidth": 0,
+            "vote": null,
+            "favorite": false,
+            "nsfw": null,
+            "section": null,
+            "account_url": "ayeshayusuf",
+            "account_id": 140315745,
+            "is_ad": false,
+            "in_most_viral": false,
+            "has_sound": false,
+            "tags": [
+                
+            ],
+            "ad_type": 0,
+            "ad_url": "",
+            "edited": "0",
+            "in_gallery": false,
+            "deletehash": "tHM7EyZs2CIGI0g",
+            "name": "pixel.gif",
+            "link": "https://i.imgur.com/KrTZOQa.jpg"
+        },
         {
             "id": "WBB9rXw",
             "title": "1x1 Pixel",
@@ -1541,6 +1573,38 @@ Body:			<none>
 }
 {
     "data": [
+        {
+            "id": "KrTZOQa",
+            "title": "1x1 Pixel",
+            "description": "This is an 1x1 pixel image.",
+            "datetime": 1609164009,
+            "type": "image/jpeg",
+            "animated": false,
+            "width": 1500,
+            "height": 747,
+            "size": 142571,
+            "views": 0,
+            "bandwidth": 0,
+            "vote": null,
+            "favorite": false,
+            "nsfw": null,
+            "section": null,
+            "account_url": "ayeshayusuf",
+            "account_id": 140315745,
+            "is_ad": false,
+            "in_most_viral": false,
+            "has_sound": false,
+            "tags": [
+                
+            ],
+            "ad_type": 0,
+            "ad_url": "",
+            "edited": "0",
+            "in_gallery": false,
+            "deletehash": "tHM7EyZs2CIGI0g",
+            "name": "pixel.gif",
+            "link": "https://i.imgur.com/KrTZOQa.jpg"
+        },
         {
             "id": "WBB9rXw",
             "title": "1x1 Pixel",
@@ -2541,7 +2605,7 @@ getAccountImageTest passed!
 I am in onTestSuccess method getAccountImageTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="uploadImagePostAPITest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="3.94">
+  <testcase name="uploadImagePostAPITest" classname="com.qa.api.gorest.tests.GetImgurAPITest" time="9.538">
     <system-out><![CDATA[uploadImagePostAPITest started!
 I am in onTestStart method uploadImagePostAPITest start
 I am in onTestStart method uploadImagePostAPITest start
@@ -2555,7 +2619,7 @@ Form params:	name=pixel.gif
 				description=This is an 1x1 pixel image.
 				title=1x1 Pixel
 Path params:	<none>
-Headers:		Authorization=Bearer e349b6394dc4c4b25f4873150a24006db2d989f0
+Headers:		Authorization=Bearer f558db082f32fee0c924cdab65c6e9a9bd9efd26
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -2571,8 +2635,8 @@ Body:
     "status": 200,
     "success": true,
     "data": {
-        "id": "KrTZOQa",
-        "deletehash": "tHM7EyZs2CIGI0g",
+        "id": "rKAOfnE",
+        "deletehash": "obpwsLR04TIKKwG",
         "account_id": 140315745,
         "account_url": "ayeshayusuf",
         "ad_type": null,
@@ -2595,11 +2659,11 @@ Body:
         "has_sound": false,
         "is_ad": false,
         "nsfw": null,
-        "link": "https://i.imgur.com/KrTZOQa.jpeg",
+        "link": "https://i.imgur.com/rKAOfnE.jpeg",
         "tags": [
             
         ],
-        "datetime": 1609164009,
+        "datetime": 1609417203,
         "mp4": "",
         "hls": ""
     }
@@ -2608,8 +2672,8 @@ Body:
     "status": 200,
     "success": true,
     "data": {
-        "id": "KrTZOQa",
-        "deletehash": "tHM7EyZs2CIGI0g",
+        "id": "rKAOfnE",
+        "deletehash": "obpwsLR04TIKKwG",
         "account_id": 140315745,
         "account_url": "ayeshayusuf",
         "ad_type": null,
@@ -2632,11 +2696,11 @@ Body:
         "has_sound": false,
         "is_ad": false,
         "nsfw": null,
-        "link": "https://i.imgur.com/KrTZOQa.jpeg",
+        "link": "https://i.imgur.com/rKAOfnE.jpeg",
         "tags": [
             
         ],
-        "datetime": 1609164009,
+        "datetime": 1609417203,
         "mp4": "",
         "hls": ""
     }
@@ -2645,7 +2709,7 @@ uploadImagePostAPITest passed!
 I am in onTestSuccess method uploadImagePostAPITest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="getAccountBlockStatusTest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="0.975">
+  <testcase name="getAccountBlockStatusTest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="0.953">
     <system-out><![CDATA[getAccountBlockStatusTest started!
 I am in onTestStart method getAccountBlockStatusTest start
 I am in onTestStart method getAccountBlockStatusTest start
@@ -2656,7 +2720,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer f28c2e48141ddb34409d8fbc3960e77137210e16
+Headers:		Authorization=Bearer 8cd08beaf140ea00edeb5d0c330badae7d7aac5b
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2676,7 +2740,7 @@ getAccountBlockStatusTest passed!
 I am in onTestSuccess method getAccountBlockStatusTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="getAccountImageTest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="3.724">
+  <testcase name="getAccountImageTest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="1.153">
     <system-out><![CDATA[getAccountImageTest started!
 I am in onTestStart method getAccountImageTest start
 I am in onTestStart method getAccountImageTest start
@@ -2687,7 +2751,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer e3f0a6eb1dca9e1987e8be702ab4aeca9de1eb20
+Headers:		Authorization=Bearer 140bd180e25c7404e60c099a1640130119a2fa74
 				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
@@ -2696,6 +2760,38 @@ Body:			<none>
 200
 {
     "data": [
+        {
+            "id": "rKAOfnE",
+            "title": "1x1 Pixel",
+            "description": "This is an 1x1 pixel image.",
+            "datetime": 1609417203,
+            "type": "image/jpeg",
+            "animated": false,
+            "width": 1500,
+            "height": 747,
+            "size": 142571,
+            "views": 0,
+            "bandwidth": 0,
+            "vote": null,
+            "favorite": false,
+            "nsfw": null,
+            "section": null,
+            "account_url": "ayeshayusuf",
+            "account_id": 140315745,
+            "is_ad": false,
+            "in_most_viral": false,
+            "has_sound": false,
+            "tags": [
+                
+            ],
+            "ad_type": 0,
+            "ad_url": "",
+            "edited": "0",
+            "in_gallery": false,
+            "deletehash": "obpwsLR04TIKKwG",
+            "name": "pixel.gif",
+            "link": "https://i.imgur.com/rKAOfnE.jpg"
+        },
         {
             "id": "KrTZOQa",
             "title": "1x1 Pixel",
@@ -3726,6 +3822,38 @@ Body:			<none>
 }
 {
     "data": [
+        {
+            "id": "rKAOfnE",
+            "title": "1x1 Pixel",
+            "description": "This is an 1x1 pixel image.",
+            "datetime": 1609417203,
+            "type": "image/jpeg",
+            "animated": false,
+            "width": 1500,
+            "height": 747,
+            "size": 142571,
+            "views": 0,
+            "bandwidth": 0,
+            "vote": null,
+            "favorite": false,
+            "nsfw": null,
+            "section": null,
+            "account_url": "ayeshayusuf",
+            "account_id": 140315745,
+            "is_ad": false,
+            "in_most_viral": false,
+            "has_sound": false,
+            "tags": [
+                
+            ],
+            "ad_type": 0,
+            "ad_url": "",
+            "edited": "0",
+            "in_gallery": false,
+            "deletehash": "obpwsLR04TIKKwG",
+            "name": "pixel.gif",
+            "link": "https://i.imgur.com/rKAOfnE.jpg"
+        },
         {
             "id": "KrTZOQa",
             "title": "1x1 Pixel",
@@ -4758,7 +4886,7 @@ getAccountImageTest passed!
 I am in onTestSuccess method getAccountImageTest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="uploadImagePostAPITest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="2.372">
+  <testcase name="uploadImagePostAPITest" classname="com.qa.api.gorest.tests.GetImgurAPITest2" time="6.701">
     <system-out><![CDATA[uploadImagePostAPITest started!
 I am in onTestStart method uploadImagePostAPITest start
 I am in onTestStart method uploadImagePostAPITest start
@@ -4788,8 +4916,8 @@ Body:
     "status": 200,
     "success": true,
     "data": {
-        "id": "xyBIspv",
-        "deletehash": "MzmerXJ3iMWxM6w",
+        "id": "ixcIbzF",
+        "deletehash": "TbYQ3Czcn9v4twB",
         "account_id": null,
         "account_url": null,
         "ad_type": null,
@@ -4812,11 +4940,11 @@ Body:
         "has_sound": false,
         "is_ad": false,
         "nsfw": null,
-        "link": "https://i.imgur.com/xyBIspv.jpeg",
+        "link": "https://i.imgur.com/ixcIbzF.jpeg",
         "tags": [
             
         ],
-        "datetime": 1609164017,
+        "datetime": 1609417215,
         "mp4": "",
         "hls": ""
     }
@@ -4825,8 +4953,8 @@ Body:
     "status": 200,
     "success": true,
     "data": {
-        "id": "xyBIspv",
-        "deletehash": "MzmerXJ3iMWxM6w",
+        "id": "ixcIbzF",
+        "deletehash": "TbYQ3Czcn9v4twB",
         "account_id": null,
         "account_url": null,
         "ad_type": null,
@@ -4849,11 +4977,11 @@ Body:
         "has_sound": false,
         "is_ad": false,
         "nsfw": null,
-        "link": "https://i.imgur.com/xyBIspv.jpeg",
+        "link": "https://i.imgur.com/ixcIbzF.jpeg",
         "tags": [
             
         ],
-        "datetime": 1609164017,
+        "datetime": 1609417215,
         "mp4": "",
         "hls": ""
     }
@@ -4862,7 +4990,7 @@ uploadImagePostAPITest passed!
 I am in onTestSuccess method uploadImagePostAPITest succeed
 ]]></system-out>
   </testcase>
-  <testcase name="getUserListApiTest" classname="com.qa.api.gorest.tests.GetUserTest" time="0.253">
+  <testcase name="getUserListApiTest" classname="com.qa.api.gorest.tests.GetUserTest" time="0.383">
     <failure message="expected [201] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [200]
 	at com.qa.api.gorest.tests.GetUserTest.getUserListApiTest(GetUserTest.java:37)
 ]]></failure>
@@ -4886,7 +5014,7 @@ getUserListApiTest failed!
 I am in onTestFailure method getUserListApiTest failed
 ]]></system-out>
   </testcase>
-  <testcase name="getUserWithQueryParamsApiTest" classname="com.qa.api.gorest.tests.GetUserTest" time="0.367">
+  <testcase name="getUserWithQueryParamsApiTest" classname="com.qa.api.gorest.tests.GetUserTest" time="0.335">
     <system-out><![CDATA[getUserWithQueryParamsApiTest started!
 I am in onTestStart method getUserWithQueryParamsApiTest start
 I am in onTestStart method getUserWithQueryParamsApiTest start
